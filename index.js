@@ -1,13 +1,14 @@
-require("@babel/core");
-require("@babel/register");
+import * as babel from "@babel/core";
 
-const readline = require("readline");
-const {
+import * as babelRegister from "@babel/register";
+
+import * as readline from "readline";
+import {
   capitalize,
   getAlpha2Code,
   countryListLookup,
   getResponse,
-} = require("./language_spoken.js");
+} from "./language_spoken.js";
 
 const rl = readline.createInterface({
   input: process.stdin,

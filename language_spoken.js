@@ -1,6 +1,6 @@
 import languageCodes from "./utils/languageCodes.js";
 import httpRequest from "./utils/http-request.js";
-import "regenerator-runtime/runtime";
+import "regenerator-runtime/runtime.js";
 
 const { languageInEnglish, alpha2Codes } = languageCodes;
 
