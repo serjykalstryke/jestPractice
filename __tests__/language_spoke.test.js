@@ -19,4 +19,5 @@ test("convert array of country data objects to array of countries", () => {
   const actualValue = countryExtractor(inputObject);
 
   //assertions
+  expect(actualValue).toEqual(expectedValue);
 });
