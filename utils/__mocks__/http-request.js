@@ -1,1 +1,3 @@
-const httpRequest = jest.fn(() => Promise.resolve({ statis: "", data: {} }));
+const httpRequest = jest.fn(() => Promise.resolve({ status: "", data: {} }));
+
+export default httpRequest;
